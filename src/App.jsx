@@ -182,7 +182,7 @@ END:VCARD`;
                 Conciertos y sesiones en vivo
               </h4>
               <p className="text-warm_white/70 text-sm leading-relaxed">
-                Actuaciones con presencia, energía y conexión directa con el público.
+                Actuaciones con presencia, ritmo y conexión directa con el público, adaptadas a distintos formatos y espacios.
               </p>
             </div>
 
@@ -192,7 +192,7 @@ END:VCARD`;
                 Percusión para grabaciones y en vivo
               </h4>
               <p className="text-warm_white/70 text-sm leading-relaxed">
-                Colaboraciones rítmicas para estudio, directo y proyectos musicales.
+                Colaboraciones rítmicas para estudio y directo, aportando fuerza, matiz y personalidad musical a cada proyecto.
               </p>
             </div>
 
@@ -202,7 +202,7 @@ END:VCARD`;
                 Música para bodas y eventos
               </h4>
               <p className="text-warm_white/70 text-sm leading-relaxed">
-                Propuestas musicales para celebraciones y eventos de distintos formatos.
+                Propuestas musicales para bodas, celebraciones y eventos especiales, con un enfoque cuidado, versátil y memorable.
               </p>
             </div>
           </div>
