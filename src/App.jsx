@@ -44,7 +44,7 @@ END:VCARD`;
       
       {/* 1. Cabecera Visual */}
       {/* Hero background con foto (placeholder temporal hasta asignación exacta) */}
-      <div className="relative h-72 sm:h-80 w-full bg-brown_dark overflow-hidden">
+      <div className="relative h-96 sm:h-[450px] w-full bg-brown_dark overflow-hidden">
         <img 
           src="/hero_marlon.jpeg" 
           alt="Fondo escénico"
@@ -66,7 +66,7 @@ END:VCARD`;
         </button>
       </div>
 
-      <div className="max-w-xl mx-auto px-6 relative -mt-24 sm:-mt-28 z-10">
+      <div className="max-w-xl mx-auto px-6 relative -mt-12 sm:-mt-16 z-10">
         
         {/* 2. Bloque de Identidad y Contacto */}
         <div className="flex flex-col items-center text-center">
@@ -82,7 +82,7 @@ END:VCARD`;
             />
           </div>
 
-          <h1 className="text-3xl sm:text-4xl font-black text-warm_white tracking-tight mb-2">
+          <h1 className="text-3xl sm:text-4xl font-serif font-bold text-warm_white tracking-wide mb-2">
             {hubData.name}
           </h1>
           <h2 className="text-sm sm:text-base text-gold uppercase tracking-widest font-bold mb-6">
@@ -110,7 +110,7 @@ END:VCARD`;
               <div className="w-12 h-px bg-gold"></div>
             </div>
             
-            <p className="text-3xl font-black text-ocre italic tracking-wide text-shadow-sm">
+            <p className="text-3xl font-serif font-bold text-ocre italic tracking-widest text-shadow-sm">
               "Es ahora!"
             </p>
           </div>
@@ -122,10 +122,12 @@ END:VCARD`;
             href={hubData.links.spotify} 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="flex items-center justify-between p-4 bg-gradient-to-r from-ocre to-terra hover:from-gold hover:to-ocre text-black_base rounded-2xl font-black text-lg transition-all duration-300 shadow-lg shadow-ocre/20 hover:shadow-xl hover:shadow-ocre/40 hover:-translate-y-1"
+            className="flex items-center justify-between p-4 bg-gradient-to-r from-ocre to-terra hover:from-gold hover:to-ocre text-black_base rounded-2xl font-bold text-lg transition-all duration-300 shadow-lg shadow-ocre/20 hover:shadow-xl hover:shadow-ocre/40 hover:-translate-y-1"
           >
             <div className="flex items-center gap-3">
-              <Music className="w-6 h-6" />
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.54.659.301 1.02zm1.44-3.3c-.301.42-.84.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.84.241 1.2zM19.2 9.3c-3.84-2.28-10.2-2.46-13.92-1.38-.6.18-1.2-.18-1.38-.78-.18-.6.18-1.2.78-1.38 4.2-1.2 11.22-1.02 15.6 1.62.539.3.719 1.02.419 1.56-.239.54-.959.72-1.499.36z"/>
+              </svg>
               <span>Escuchar música</span>
             </div>
             <ExternalLink className="w-5 h-5 opacity-70" />
