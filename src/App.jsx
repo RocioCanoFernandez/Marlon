@@ -27,6 +27,7 @@ FN:${hubData.name}
 TITLE:${hubData.role}
 EMAIL:${hubData.email}
 TEL;TYPE=WORK,VOICE:+${hubData.whatsapp}
+URL:https://hub-hub-marlon.npfusf.easypanel.host/
 END:VCARD`;
 
     const blob = new Blob([vcard], { type: 'text/vcard' });
