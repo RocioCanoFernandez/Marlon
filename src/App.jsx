@@ -23,7 +23,7 @@ const MarlonHub = () => {
   const handleSaveContact = () => {
     const vcard = `BEGIN:VCARD
 VERSION:3.0
-FN:${hubData.name}
+N:;${hubData.name};;;\r\nFN:${hubData.name}
 TITLE:${hubData.role}
 EMAIL:${hubData.email}
 TEL;TYPE=WORK,VOICE:+${hubData.whatsapp}
